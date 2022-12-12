@@ -15,7 +15,7 @@ print(my_list)
 #my_list.insert(list_ko_position,element)  , tyo positon ma element add huncha
 #max (my_list)   , same datatype chha bhane max size dekhaucha list ko
 
-##class_4
+##class_4(slicing)
 #ending point bhanda ek agadi samma matra linchha, afulai include gardaina ,eg:my_list[0:10:2]
 #last samma jada chai(or kei value nalekhda), aafulai ni include garchha , eg:my_list[0::2]
 #my_list[::-1]   , inverse dincha
