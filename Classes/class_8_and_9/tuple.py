@@ -1,6 +1,6 @@
-'''List is mutable(can be changed)
+'''List is mutable(can be changed) [.....]
     but tuple is non-mutable(cannot be changed),tuple is used while saving password, or kunai
-    theme select garda change huna nadina
+    theme select garda change huna nadina  (......)
     '''
 
 my_tuple = (10,20,30,'a','hello',"world")
@@ -20,4 +20,4 @@ print(my_list)
 
 tup = tuple(my_list)        #converting list to tuple
 print(tup)
-print(tup.count('hello')) #kunai pani element kati watacha bhanera herna
+print(tup.count('hello'))       #kunai pani element kati watacha bhanera herna
