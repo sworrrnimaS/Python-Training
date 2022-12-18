@@ -61,23 +61,70 @@
 # my_dict["new_dict"] = {1:'a',2:'b',"college":"sagarmatha"}
 # print(my_dict)
 
-#NESTED DICTIONARY
-sagarmatha = {
-        "Education Department": {
-                "Computer Science": {
-                        "HOD":"Bharat Bhatta", 
-                        "no_of_students": 100
-                },
-                "Civil": {
-                        "HOD":"Sudip Lamsal",
-                        "no_of_students": 200
-                }
-        },
-        "Admin Department": {
-                "Accounts": {
-                        "HOD":"Chaturbhuj Nepali",
-                        "no_of_students": 50
-                }
-        }
-}
-print(sagarmatha)
+##NESTED DICTIONARY
+# #EXAMPLE-1
+# sagarmatha = {
+#         "Education Department": {
+#                 "Computer Science": {
+#                         "HOD":"Bharat Bhatta", 
+#                         "no_of_students": 100
+#                 },
+#                 "Civil": {
+#                         "HOD":"Sudip Lamsal",
+#                         "no_of_students": 200
+#                 }
+#         },
+#         "Admin Department": {
+#                 "Accounts": {
+#                         "HOD":"Chaturbhuj Nepali",
+#                         "no_of_students": 50
+#                 }
+#         }
+# }
+# print(sagarmatha)
+
+
+# #EXAMPLE-2(TO ADD VAT TO EVERY VALUE AND SAVE THE UPDATED VALUE IN DICTIONARY AGAIN)
+# price_of_item = {
+#             'apple': 120,
+#             'banana': 330,
+#             'orange': 210,
+#             'pear': 210,
+#             'grape': 410,
+#             'pineapple': 560,
+#             'strawberry': 770,
+#             'watermelon': 660
+# }
+# VAT_ADDED_PRICE = {}                     #assigning empty dictionary to save the vat added price in dictionary again
+# for key,value in price_of_item.items():
+#       value += (13/100) * value
+#       print(key,value)
+#       VAT_ADDED_PRICE [key] = value       #OR use; VAT_ADDED_PRICE.update({key:value})
+# print(VAT_ADDED_PRICE)
+
+
+# #EXAMPLE 3
+# num = input("Enter a number : ")
+# x = float(num)
+# def get_funct(x):
+#     return x * x + 5 * x + 1
+# print("the value is",get_funct(x))
+
+
+#   #using 'LAMBDA'    LAMBDA: Memory create huncha kaam sakaucha ani delete huncha, use for efficient coding
+# #1
+# f = lambda x:x * x + 5 * x + 1
+# print(f(1))
+
+# #2(can also be used in string)
+# f = lambda name:name + "Shrestha" + "1"
+# print(f("Swornima"))
+
+#3(passing two arguments)
+f = lambda x,y:x * 2 + 5 * x * y + 1
+print("The value is : ",f(2,3))
+
+
+
+
+
