@@ -120,9 +120,9 @@
 # f = lambda name:name + "Shrestha" + "1"
 # print(f("Swornima"))
 
-#3(passing two arguments)
-f = lambda x,y:x * 2 + 5 * x * y + 1
-print("The value is : ",f(2,3))
+# #3(passing two arguments)
+# f = lambda x,y:x * 2 + 5 * x * y + 1
+# print("The value is : ",f(2,3))
 
 
 
