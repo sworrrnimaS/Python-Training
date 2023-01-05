@@ -1,0 +1,19 @@
+1) sable access garna pauna ko lagi, use "self"
+   --> constructor ra destructor dubai ma self halnei parchha
+   --> class le matra call garda chai 'self' narakheni chalchha
+
+2) nabolai aafai aaune kura ko lagi, use "__init__" (works as constructor)
+
+3) use "__del__" , for destructor
+
+4)function making passing argument syntax:
+  ---> class class_name:
+            def function_name (self,arg1,arg2,....):
+                self.any_name = arg1
+                self.any_nam1 = arg2
+                .
+                .
+                .
+        obj_name = class_name(arg1,arg2,....)
+
+
