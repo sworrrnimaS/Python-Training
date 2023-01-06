@@ -17,22 +17,34 @@
 # sg.home1()
 
 
-#EXAMPLE-2 (PASSING ARGUMENTS MAKING OBJECT)
-class Sanepa:
-    def __init__(self,name,age,address):
+# #EXAMPLE-2 (PASSING ARGUMENTS MAKING OBJECT)
+# class Sanepa:
+#     def __init__(self,name,age,address):
+#         self.name = name
+#         self.age = age
+#         self.address = address
+#     def abc(self,rollno):    
+#         print(f"My rollno is {rollno} age is {self.age}. I live in {self.address}")
+#         print(self.age)
+#     def display(self):
+#         print(self.name)
+#         print(self.age)
+#         print(self.address)
+
+# obj1 = Sanepa("Swornima",20,"Dhumbarahi")
+# obj2 = Sanepa("Binayak",21,"Thamel")
+# obj1.display()
+# obj2.display()
+# obj1.abc("046")
+
+
+#EXAMPLE-3
+class Visualization:
+    def __init__(self,name,age):
         self.name = name
         self.age = age
-        self.address = address
-    def abc(self,rollno):    
-        print(f"My rollno is {rollno} age is {self.age}. I live in {self.address}")
-        print(self.age)
-    def display(self):
-        print(self.name)
-        print(self.age)
-        print(self.address)
+    def homie(self):
+        print(self.name,self.age)
 
-obj1 = Sanepa("Swornima",20,"Dhumbarahi")
-obj2 = Sanepa("Binayak",21,"Thamel")
-obj1.display()
-obj2.display()
-obj1.abc("046")
+viz = Visualization("Dakshita",6)
+viz.homie()
