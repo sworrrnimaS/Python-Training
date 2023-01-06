@@ -1,0 +1,13 @@
+#install bhayena bhane venv uninstall garera feri install garera ani jupyter install garne
+
+#to download jupyter notebook
+     --> pip install jupyter notebook
+
+#ani cmd ma gayera (venv bhitra chai huna parchha)
+    --> jupyter notebook 
+        yo garyo bhane browser ma khulchha
+
+#then, "new" ma click garera "Python 3" ma gayo bhane arko terminal kholcha and we can type code there
+     --> shift + enter = shorcut to run
+     --> In[ ] = yo bhaneko code run bhakochhaina bhaneko ho
+     --> In[*] = running in progress
