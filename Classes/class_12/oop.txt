@@ -16,4 +16,11 @@
                 .
         obj_name = class_name(arg1,arg2,....)
 
+5)class_name ko 1st letter jaile capital 
+  -->eg: class Sagarmatha
+
+6) In EXAMPLE 4,
+       -->super().__init__(arg1,arg2,....)
+                allows the class to initialize the attributes of the class it has inherited
+                
 

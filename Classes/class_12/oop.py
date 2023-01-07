@@ -38,13 +38,40 @@
 # obj1.abc("046")
 
 
-#EXAMPLE-3
-class Visualization:
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
-    def homie(self):
-        print(self.name,self.age)
+# #EXAMPLE-3
+# class Visualization:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+#     def homie(self):
+#         print(self.name,self.age)
 
-viz = Visualization("Dakshita",6)
-viz.homie()
+# viz = Visualization("Dakshita",6)
+# viz.homie()
+
+#EXAMPLE-4 (Inheritance)
+class Sagarmatha:
+    def __init__(self,no_of_department = 2, no_of_students = 1000,no_of_faculty = 100):
+        self.affiliation = "T.U."
+        self.no_of_department = no_of_department
+        self.location = "Sanepa"
+        self.no_of_students = no_of_students
+        self.no_of_faculty = no_of_faculty
+    
+    def canteen_profit(self):
+        return self.no_of_students * 0.1*10
+
+class ScienceTechnology(Sagarmatha):
+    def __init__(self,no_of_department = 2, no_of_students = 1000,no_of_faculty = 100):
+        super().__init__(no_of_department, no_of_students, no_of_faculty)
+        self.affiliation = "P.U."
+        self.no_of_department = no_of_department
+        self.location = "Kathmandu"
+        self.no_of_stuedents = no_of_students
+        self.no_of_faculty = no_of_faculty
+    
+    def canteen_loss(self):
+        return self.no_of_students * 0.2*10
+
+obj = ScienceTechnology()
+print(obj.canteen_profit())    #prints the profit of class Sagarmatha
