@@ -23,4 +23,8 @@
        -->super().__init__(arg1,arg2,....)
                 allows the class to initialize the attributes of the class it has inherited
                 
-
+7)In polymorphism, subclass can only implement the function of main class (sidhai mainclass lai call garna mildaina)
+ 
+8)Access Specifiers:
+   private :-  "__argname" , esari specify garne
+   
